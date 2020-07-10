@@ -13,6 +13,7 @@ grid = np.array([[0, 4, 0, 9, 0, 2, 0, 0, 8],
 
 
 playingboard = board.Board(grid)
+print("Board to solve:")
 playingboard.PrintBoard()
-print("Solving...")
+print("Solved:")
 playingboard.Solve()
